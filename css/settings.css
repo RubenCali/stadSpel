@@ -1,0 +1,104 @@
+@media screen and (max-width: 600px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        position: fixed;    
+}
+/* begin herbruikbaar */
+.groen{
+    color: #1AC93D;
+}
+
+/* eind herbruikbaar */
+/* logoSetting begin */
+#top{
+    width: 100%;
+}
+    .logo a img{
+        width: 120px;
+        height: auto;
+    }
+    .logo{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .settings{
+        margin-left: 330px;
+        margin-top: -35px;
+    }
+    .settings a i{
+        color: #0D6A2F;
+        font-size: 35px;
+    }
+    /* logoSettings eind */
+
+    /* titelInfo begin */
+    #middle{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .title h1{
+        color: #00FF33;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .info h3{
+        color: #00FF33;
+        line-height: 25px;
+    }
+    .ins{
+        font-weight: bold;
+        margin-top: -25px;
+        font-size: 30px;
+    }
+    /* titelInfo eind */
+
+    /* btn begin */
+    .buttons{
+        
+        margin-top: 200px;
+        position: absolute;
+
+    }
+    
+    
+    .play{
+        border: 1.2px solid white;
+        padding: 18px 40px;
+        margin-left: 60%;
+        background-color: white;
+        color: #00FF33;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 30px;
+        font-weight: bold;
+       
+    }
+    .instructies{
+        border: 1.2px solid white;
+        padding: 7px 15px;
+        margin-left: 60%;
+        background-color: white;
+        color: #00FF33;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .fa-undo{
+        margin-top: 44px;
+        margin-left: 10px;
+        font-size: 30px;
+        color: #0D6A2F;
+    }
+    /* btn end */
+
+    /* wave begin */
+    .wave img{
+        width: 110%;
+        margin-top: 100px;
+    }
+  
+   /* wave end */
+}
